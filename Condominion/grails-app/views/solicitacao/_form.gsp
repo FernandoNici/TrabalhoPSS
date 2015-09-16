@@ -40,6 +40,6 @@
 		<span class="required-indicator">*</span>
 	</label>
 	
-	<g:select id="usuario" name="usuario.id" from="${comum.Usuario.list()}" optionKey="id" optionValue="${{it.username}}" required="" valueMessagePrefix="a." class="many-to-one"/>
+	<g:select id="usuario" name="usuario.id" from="${comum.Usuario.list()}" optionKey="id" optionValue="${{it.username}}" required=""  class="many-to-one"/>
 </div>
 

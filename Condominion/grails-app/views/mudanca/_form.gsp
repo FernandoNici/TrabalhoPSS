@@ -15,7 +15,8 @@
 		<g:message code="mudanca.morador.label" default="Morador" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="morador" name="morador.id" from="${condominion.Condomino.list()}" optionKey="id" required="" value="${mudancaInstance?.morador?.nome}" class="many-to-one"/>
+	
+	<g:select id="morador" name="morador.id" from="${condominion.Condomino.list()}" optionKey="id" required=""  optionValue="${{it.nome}}" class="many-to-one"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: mudancaInstance, field: 'apartamento', 'error')} ">

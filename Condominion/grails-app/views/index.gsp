@@ -86,9 +86,14 @@
 			<h1>SGC</h1>
 			<ul>
 				<li class="controller"><g:link controller="areaRestrita">Area Restrita</g:link></li>
+				<li class="controller"><g:link controller="boleto">Boleto</g:link></li>
+				<li class="controller"><g:link controller="condomino">Condomino</g:link></li>
+				<li class="controller"><g:link controller="despesa">Despesa</g:link></li>
+				<li class="controller"><g:link controller="funcionario">Funcionario</g:link></li>
 				<li class="controller"><g:link controller="mudanca">Mudança</g:link></li>
 				<li class="controller"><g:link controller="solicitacao">Solicitação	</g:link></li>
-				<li class="controller"><g:link controller="Ocorrencia">Ocorrências</g:link></li>
+				<li class="controller"><g:link controller="ocorrencia">Ocorrências</g:link></li>
+				<li class="controller"><g:link controller="sindico">Sindico</g:link></li>
 			</ul>
 			
 		</div>

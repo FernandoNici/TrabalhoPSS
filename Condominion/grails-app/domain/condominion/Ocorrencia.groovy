@@ -1,12 +1,10 @@
 package condominion
 
-
-
 class Ocorrencia {
-	String assunto;
-	String textoOcorrencia;
-	Date data;
-	String hora;
+	String assunto
+	String textoOcorrencia
+	Date data
+	String hora
 	
 	
     static constraints = {

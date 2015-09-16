@@ -2,11 +2,11 @@ package condominion
 
 class Condomino {
 	String nome;
-	String Apartamento;
-	String Bloco;
+	String apartamento;
+	String bloco;
 	
-	static hasMany = [solicitacao:Solicitacao, ocorrencia:Ocorrencia]
-	
-    static constraints = {
+		
+	static constraints = {
+		
     }
 }

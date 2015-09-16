@@ -1,13 +1,15 @@
 package condominion
 
-import java.util.Calendar;
-
 class Boleto {
-	String sacado;
-	String cedente;
-	double valor;
-	Calendar vencimento;
-	int nossoNumero;
+	String sacado
+	String cedente
+	double valor
+	String vencimento
+	int nossoNumero
+	
     static constraints = {
+		sacado blanck:false
+		cedente blanck:false
+			
     }
 }
