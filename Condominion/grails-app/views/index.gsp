@@ -88,6 +88,7 @@
 				<li class="controller"><g:link controller="areaRestrita">Area Restrita</g:link></li>
 				<li class="controller"><g:link controller="mudanca">Mudança</g:link></li>
 				<li class="controller"><g:link controller="solicitacao">Solicitação	</g:link></li>
+				<li class="controller"><g:link controller="Ocorrencia">Ocorrências</g:link></li>
 			</ul>
 			
 		</div>

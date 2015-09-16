@@ -39,6 +39,7 @@
 		<g:message code="solicitacao.usuario.label" default="Usuario" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="usuario" name="usuario.id" from="${comum.Usuario.list()}" optionKey="nome" required="" value="${solicitacaoInstance?.usuario?.id}" class="many-to-one"/>
+	
+	<g:select id="usuario" name="usuario.id" from="${comum.Usuario.list()}" optionKey="id" optionValue="${{it.username}}" required="" valueMessagePrefix="a." class="many-to-one"/>
 </div>
 
