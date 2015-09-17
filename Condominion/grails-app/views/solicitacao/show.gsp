@@ -63,7 +63,8 @@
 				<li class="fieldcontain">
 					<span id="usuario-label" class="property-label"><g:message code="solicitacao.usuario.label" default="Usuario" /></span>
 					
-						<span class="property-value" aria-labelledby="usuario-label"><g:link controller="usuario" action="show" id="${solicitacaoInstance?.usuario?.id}">
+						<span class="property-value" aria-labelledby="usuario-label">
+						<g:link controller="usuario" action="show" id="${solicitacaoInstance?.usuario?.id}">
 						${solicitacaoInstance?.usuario?.getUsername()}
 						</g:link></span>
 					

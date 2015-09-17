@@ -94,6 +94,7 @@
 				<li class="controller"><g:link controller="solicitacao">Solicitação	</g:link></li>
 				<li class="controller"><g:link controller="ocorrencia">Ocorrências</g:link></li>
 				<li class="controller"><g:link controller="sindico">Sindico</g:link></li>
+				<li class="controller"><g:link controller="ponto">Ponto</g:link></li>
 			</ul>
 			
 		</div>
